@@ -1,0 +1,12 @@
+C:\Users\rui_n\source\repos\TaskManagerFinal\task-manager-1123\server\API\TaskManager.Contracts\bin\Debug\net7.0\TaskManager.Contracts.deps.json
+C:\Users\rui_n\source\repos\TaskManagerFinal\task-manager-1123\server\API\TaskManager.Contracts\bin\Debug\net7.0\TaskManager.Contracts.dll
+C:\Users\rui_n\source\repos\TaskManagerFinal\task-manager-1123\server\API\TaskManager.Contracts\bin\Debug\net7.0\TaskManager.Contracts.pdb
+C:\Users\rui_n\source\repos\TaskManagerFinal\task-manager-1123\server\API\TaskManager.Contracts\obj\Debug\net7.0\TaskManager.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rui_n\source\repos\TaskManagerFinal\task-manager-1123\server\API\TaskManager.Contracts\obj\Debug\net7.0\TaskManager.Contracts.AssemblyInfoInputs.cache
+C:\Users\rui_n\source\repos\TaskManagerFinal\task-manager-1123\server\API\TaskManager.Contracts\obj\Debug\net7.0\TaskManager.Contracts.AssemblyInfo.cs
+C:\Users\rui_n\source\repos\TaskManagerFinal\task-manager-1123\server\API\TaskManager.Contracts\obj\Debug\net7.0\TaskManager.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\rui_n\source\repos\TaskManagerFinal\task-manager-1123\server\API\TaskManager.Contracts\obj\Debug\net7.0\TaskManager.Contracts.sourcelink.json
+C:\Users\rui_n\source\repos\TaskManagerFinal\task-manager-1123\server\API\TaskManager.Contracts\obj\Debug\net7.0\TaskManager.Contracts.dll
+C:\Users\rui_n\source\repos\TaskManagerFinal\task-manager-1123\server\API\TaskManager.Contracts\obj\Debug\net7.0\refint\TaskManager.Contracts.dll
+C:\Users\rui_n\source\repos\TaskManagerFinal\task-manager-1123\server\API\TaskManager.Contracts\obj\Debug\net7.0\TaskManager.Contracts.pdb
+C:\Users\rui_n\source\repos\TaskManagerFinal\task-manager-1123\server\API\TaskManager.Contracts\obj\Debug\net7.0\ref\TaskManager.Contracts.dll

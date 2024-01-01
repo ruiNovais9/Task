@@ -1,0 +1,16 @@
+version: '3'
+name: Task-Manager
+services:
+  angular-app:
+    build:
+      context: ./Angular
+      dockerfile: Dockerfile
+    ports:
+      - "4300:4200" 
+
+  taskmanager-api:
+    build:
+      context: ./API
+      dockerfile: Dockerfile
+    ports:
+      - "5000:80" 

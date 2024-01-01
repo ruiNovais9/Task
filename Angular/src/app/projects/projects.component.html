@@ -1,0 +1,47 @@
+<div id="Projects" class="projects_main">
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>DeadLine</th>
+            <th>Time used (minutes)</th>
+            <th>Add time used on Project (minutes)</th>
+            <th>Status of the project</th>
+            <th></th>
+        </tr>
+        <tr *ngFor="let project of projects; let i = index">
+            <td> <input [id]="'new_name_' + project.id" maxlength="50" type="text" class="project_inputs" [(ngModel)]="project.name" /></td>
+            <td> 
+                <input [ngClass]="{ 'disabled-cell': project.projectIsCompleted }" [id]="'new_deadline_' + project.id" maxlength="50" class="project_inputs" [(ngModel)]="project.deadLine" />
+            </td>
+            <td> {{project.timeSpend}}</td>
+            <td>
+                <input [ngClass]="{ 'disabled-cell': project.projectIsCompleted }" id="new_timeSpend" maxlength="6" type="number" class="project_inputs" [(ngModel)]="project.timeOnProject" />
+                <button [ngClass]="{ 'disabled-cell': project.projectIsCompleted }"  id="update-time-used-button" type="button" (click)="addTimeUsedOnProject(project.id, project.timeOnProject);"> Add minutes</button>
+            </td>
+            <td *ngIf="project.projectIsCompleted"> Completed </td>
+            <td *ngIf="!project.projectIsCompleted"> Active <button id="update-status-button" type="button" (click)="updateStatusProject(project.id, true);"> Close project</button>
+            </td>
+            <td> <button id="update-project-button" type="button" (click)="updateProject(project);"> Update Project</button></td>
+        </tr>
+        <tr>
+            <td>
+                <input id="new_name" class="project_inputs" [(ngModel)]="newProject.name" />
+            </td>
+            <td>
+                <input id="new_deadline" class="project_inputs" [(ngModel)]="newProject.deadLine" placeholder="yyyy-MM-dd"/>
+            </td>
+            <td>
+            </td>
+            <td>
+                <button id="new-project-button"  type="button" (click)="insertProjects(newProject);"> Add new Project </button>
+            </td>
+        </tr>
+    </table>
+    <div *ngIf="errorDescription" class="error-message">
+        {{errorDescription}}
+    </div>
+
+    <div style="margin-top: 15px;">
+        <button id="order-deadline-button" type="button" (click)="orderByDeadLine();"> Order by DeadLine </button>
+    </div>
+</div>
